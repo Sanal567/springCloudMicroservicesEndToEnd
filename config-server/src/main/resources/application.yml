@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/shared
+        # git:
+        #   uri: /Users/sanal567/git/configServer  
+        # git:
+        #   uri: https://github.com/Sanal567/cloudConfigTest.git 
+  profiles:
+    active: native
+ 
+server:
+  port: 8888
+
+
+        
